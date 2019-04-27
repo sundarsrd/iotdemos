@@ -9,7 +9,8 @@ router.get('/', function(req, res, next) {
 /* POST readings. */
 router.post('/', function(req, res, next) {
   // write to a file
-  res.send('respond with a resource');
+  // update display
+  res.send(req);
 });
 
 module.exports = router;
