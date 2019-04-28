@@ -13,7 +13,7 @@ IoT Demos for SmartCities (Arduino, ESP8266)
 5. Test ESP8266 connectivity with [Blink OnChip LED](blink), [Blink OnBoard LED](blink-led) . 
    - Open "File -> Examples -> ESP8266 -> Blink" . 
    - Compile & Upload (hold the flash button) . 
-6. [Test Control/Command via Wifi](http) - Get the code for a HTTP server from https://tttapa.github.io/ESP8266/Chap10%20-%20Simple%20Web%20Server.html & run it . 
+6. [Test Control/Command via Wifi](httpsrv) - Get the code for a HTTP server from https://tttapa.github.io/ESP8266/Chap10%20-%20Simple%20Web%20Server.html & run it . 
    - Change the SSID, Pwd in the code to your wifi SSID & password .  
    - Compile & Upload --> Open the serial monitor from "Tools -> Serial Monitor" to see the diagnostics msgs (Ensure the baudrate of the serial monitor is set to what's given in the program - ex: 115200) . 
    - The HTTP Server starts in ESP8266, connects using DHCP and sends out it's IP address to the serial console . 
